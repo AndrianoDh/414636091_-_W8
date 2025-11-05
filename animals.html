@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adoptable Animals</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="animals.html" class="nav__link">Adoptable Animals</a>
+        <a href="adopt.html" class="nav__link">I Want to Adopt</a>
+        <a href="contact.html" class="nav__link">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h1>🐾 Adoptable Fur Kids</h1>
+        <p style="text-align:center;">Look at their smiles, maybe one is waiting for you 💕</p>
+
+        <div class="gallery">
+            <!-- Shiba Inu Xiao Fu -->
+            <div class="animal-card">
+                <img src="image3.webp" alt="Shiba Inu Xiao Fu" class="animal-img"
+                    onclick="document.getElementById('info1').showModal()">
+                <p>🐶 Shiba Inu Xiao Fu</p>
+            </div>
+
+            <dialog id="info1" class="animal-dialog">
+                <h2>🐶 Shiba Inu Xiao Fu</h2>
+                <img src="image3.webp" alt="Shiba Inu Xiao Fu" class="dialog-img">
+                <p>Age: About 2 years<br>Personality: Lively, likes sunbathing ☀️<br>Health Status: Spayed/Neutered, vaccinated regularly</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+
+            <!-- Labrador Duo Duo -->
+            <div class="animal-card">
+                <img src="image4.webp" alt="Labrador Duo Duo" class="animal-img"
+                    onclick="document.getElementById('info2').showModal()">
+                <p>🐾 Labrador Duo Duo</p>
+            </div>
+
+            <dialog id="info2" class="animal-dialog">
+                <h2>🐾 Labrador Duo Duo</h2>
+                <img src="image4.webp" alt="Labrador Duo Duo" class="dialog-img">
+                <p>Age: About 3 years<br>Personality: Loyal, a bit shy 🐕🦺<br>Health Status: Vaccinated</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+
+            <!-- American Shorthair La La -->
+            <div class="animal-card">
+                <img src="image5.webp" alt="American Shorthair La La" class="animal-img"
+                    onclick="document.getElementById('info3').showModal()">
+                <p>🐱 American Shorthair La La</p>
+            </div>
+
+            <dialog id="info3" class="animal-dialog">
+                <h2>🐱 American Shorthair La La</h2>
+                <img src="image5.webp" alt="American Shorthair La La" class="dialog-img">
+                <p>Age: About 1 year<br>Personality: Affectionate, likes cat treats 🐱💕<br>Health Status: Vaccinated</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+
+            <!-- Tabby Da Ban -->
+            <div class="animal-card">
+                <img src="image6.webp" alt="Tabby Da Ban" class="animal-img"
+                    onclick="document.getElementById('info4').showModal()">
+                <p>🐈‍⬛ Tabby Da Ban</p>
+            </div>
+
+            <dialog id="info4" class="animal-dialog">
+                <h2>🐈‍⬛ Tabby Da Ban</h2>
+                <img src="image6.webp" alt="Tabby Da Ban" class="dialog-img">
+                <p>Age: About 1 year<br>Personality: Affectionate, likes having butt patted 🐈‍⬛💕<br>Health Status: Vaccinated</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+
+            <!-- Guinea Pig Xiao Mi -->
+            <div class="animal-card">
+                <img src="image7.webp" alt="Guinea Pig Xiao Mi" class="animal-img"
+                    onclick="document.getElementById('info5').showModal()">
+                <p>🐹 Guinea Pig Xiao Mi</p>
+            </div>
+
+            <dialog id="info5" class="animal-dialog">
+                <h2>🐹 Guinea Pig Xiao Mi</h2>
+                <img src="image7.webp" alt="Guinea Pig Xiao Mi" class="dialog-img">
+                <p>Age: About 1 year<br>Personality: Shy, likes sunflower seeds 🐹🌰<br>Health Status: Dewormed</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+
+            <!-- Parrot A Fei -->
+            <div class="animal-card">
+                <img src="image8.webp" alt="Parrot A Fei" class="animal-img"
+                    onclick="document.getElementById('info6').showModal()">
+                <p>🐦 Parrot A Fei</p>
+            </div>
+
+            <dialog id="info6" class="animal-dialog">
+                <h2>🐦 Parrot A Fei</h2>
+                <img src="image8.webp" alt="Parrot A Fei" class="dialog-img">
+                <p>Age: About 3 years<br>Personality: Loves to talk 🐦<br>Health Status: Good</p>
+                <button class="btn" onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Happy Fur Kids Adoption Garden | Spread love, start with adoption 🐾
+    </footer>
+</body>
+
+</html>
